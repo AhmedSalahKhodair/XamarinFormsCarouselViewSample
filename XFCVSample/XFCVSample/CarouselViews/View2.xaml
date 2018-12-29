@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFCVSample.CarouselViews.View2">
+  <ContentView.Content>
+        <StackLayout>
+            <Label Text="Hello from second view!" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"/>
+            <Button Text="hello" HorizontalOptions="End"/>
+            <Button Text="Let's do some navigation" HorizontalOptions="Center" Clicked="NavigationButtonClick"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

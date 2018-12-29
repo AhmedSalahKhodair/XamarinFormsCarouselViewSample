@@ -8,6 +8,5 @@ namespace XFCVSample
     public class CarouselData
     {
         public string Name { get; set; }
-        public StackLayout MyStackLayout { get; set; }
     }
 }

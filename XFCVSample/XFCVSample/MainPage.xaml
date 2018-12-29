@@ -3,19 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XFCVSample"
              xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
-             x:Class="XFCVSample.MainPage">
+             x:Class="XFCVSample.MainPage"
+             Title="My main page">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:CustomDataTemplateSelector x:Key="customDTS"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <StackLayout Padding="0,0,0,5" BackgroundColor="#d8d8d8" >
-        <cv:CarouselView x:Name="cview" ItemsSource="{Binding MyDataSource}" Position="{Binding Position, Mode=TwoWay}">
-            <cv:CarouselView.ItemTemplate>
-                <DataTemplate>
+        <cv:CarouselView ItemsSource="{Binding MyDataSource}" 
+                         Position="{Binding Position, Mode=TwoWay}" 
+                         ItemTemplate="{StaticResource customDTS}" />
 
-                    <StackLayout BindingContext="{Binding MyStackLayout}">
-                    </StackLayout>
-
-                </DataTemplate>
-            </cv:CarouselView.ItemTemplate>
-        </cv:CarouselView>
         <local:CarouselIndicators IndicatorHeight="16" IndicatorWidth="16" UnselectedIndicator="unselected_circle.png" SelectedIndicator="selected_circle.png" Position="{Binding Position}" ItemsSource="{Binding MyDataSource}" />
     </StackLayout>
 

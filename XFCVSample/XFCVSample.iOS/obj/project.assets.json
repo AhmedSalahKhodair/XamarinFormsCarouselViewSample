@@ -793,11 +793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample.iOS\\XFCVSample.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.iOS\\XFCVSample.iOS.csproj",
       "projectName": "XFCVSample.iOS",
-      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample.iOS\\XFCVSample.iOS.csproj",
+      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.iOS\\XFCVSample.iOS.csproj",
       "packagesPath": "C:\\Users\\asalah.BCT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample.iOS\\obj\\",
+      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -814,8 +814,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj": {
-              "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj"
+            "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj": {
+              "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj"
             }
           }
         }

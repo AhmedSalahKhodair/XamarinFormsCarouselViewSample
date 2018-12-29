@@ -383,11 +383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj",
+      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj",
       "projectName": "XFCVSample",
-      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj",
+      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj",
       "packagesPath": "C:\\Users\\asalah.BCT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XFCVSample\\XFCVSample\\XFCVSample\\obj\\",
+      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
