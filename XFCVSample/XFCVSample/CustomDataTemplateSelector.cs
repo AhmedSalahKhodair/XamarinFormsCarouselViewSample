@@ -13,15 +13,19 @@ namespace XFCVSample
         private DataTemplate view3 = new DataTemplate(typeof(View3));
         private DataTemplate view4 = new DataTemplate(typeof(View4));
 
+        public CustomDataTemplateSelector()
+        {
+
+        }
         protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
         {
-            CarouselData current = item as CarouselData;
+            string currentView = item as string;
 
-            if (current.Name == "View1")
+            if (currentView == "View1")
                 return view1;
-            else if (current.Name == "View2")
+            else if (currentView == "View2")
                 return view2;
-            else if (current.Name == "View3")
+            else if (currentView == "View3")
                 return view3;
             else
                 return view4;

@@ -835,11 +835,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.Android\\XFCVSample.Android.csproj",
+      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.Android\\XFCVSample.Android.csproj",
       "projectName": "XFCVSample.Android",
-      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.Android\\XFCVSample.Android.csproj",
+      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.Android\\XFCVSample.Android.csproj",
       "packagesPath": "C:\\Users\\asalah.BCT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.Android\\obj\\",
+      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -856,8 +856,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj": {
-              "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj"
+            "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj": {
+              "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj"
             }
           }
         }

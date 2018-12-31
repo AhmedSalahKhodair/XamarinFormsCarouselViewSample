@@ -12,9 +12,22 @@ namespace XFCVSample.CarouselViews
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class View3 : ContentView
 	{
-		public View3 ()
-		{
-			InitializeComponent ();
-		}
-	}
+        public View3()
+        {
+            InitializeComponent();
+            List<string> items = new List<string>() { "Five", "Six", "Seven" };
+            defaultPicker.ItemsSource = items;
+            customPicker.ItemsSource = items;
+
+        }
+
+        private void CustomPickerSelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void CustomPickerFocused(object sender, FocusEventArgs e)
+        {
+            return;
+        }
+    }
 }

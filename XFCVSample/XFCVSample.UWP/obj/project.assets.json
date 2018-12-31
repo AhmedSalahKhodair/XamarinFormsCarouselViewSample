@@ -7621,11 +7621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.UWP\\XFCVSample.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.UWP\\XFCVSample.UWP.csproj",
       "projectName": "XFCVSample.UWP",
-      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.UWP\\XFCVSample.UWP.csproj",
+      "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.UWP\\XFCVSample.UWP.csproj",
       "packagesPath": "C:\\Users\\asalah.BCT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.UWP\\obj\\",
+      "outputPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7645,8 +7645,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj": {
-              "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSampleRepo\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj"
+            "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj": {
+              "projectPath": "C:\\Users\\asalah.BCT\\source\\repos\\XamarinFormsCarouselViewSample\\XFCVSample\\XFCVSample\\XFCVSample.csproj"
             }
           }
         }

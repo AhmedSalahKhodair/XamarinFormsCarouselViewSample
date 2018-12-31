@@ -17,8 +17,16 @@ namespace XFCVSample.CarouselViews {
     public partial class View4 : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker defaultPicker;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::XFCVSample.RectangleWithIconPicker customPicker;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(View4));
+            defaultPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "defaultPicker");
+            customPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XFCVSample.RectangleWithIconPicker>(this, "customPicker");
         }
     }
 }

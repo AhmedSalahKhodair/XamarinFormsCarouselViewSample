@@ -12,6 +12,7 @@ namespace XFCVSample
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new ZeroPage());
         }
 
         protected override void OnStart()

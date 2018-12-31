@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFCVSample"
              x:Class="XFCVSample.CarouselViews.View3">
   <ContentView.Content>
       <StackLayout>
             <Label Text="Hello from third view!" HorizontalOptions="End"/>
             <Entry Text="I'm an entry" HorizontalOptions="CenterAndExpand"/>
             <Button Text="hey" HorizontalOptions="Start"/>
+            <Picker x:Name="defaultPicker" HorizontalOptions="CenterAndExpand" Title="Default Picker"/>
+            <local:RectangleWithIconPicker x:Name="customPicker" HorizontalOptions="Center" Focused="CustomPickerFocused" SelectedIndexChanged="CustomPickerSelectedIndexChanged" Title="Custom Picker" WidthRequest="200" IconSourceWithoutExtension="selected_circle" IconDistanceFromRight="30"   FontSize="Medium" />
         </StackLayout>
   </ContentView.Content>
 </ContentView>

@@ -15,6 +15,18 @@ namespace XFCVSample.CarouselViews
 		public View4 ()
 		{
 			InitializeComponent ();
-		}
-	}
+            List<string> items = new List<string>() { "Five", "Six", "Seven" };
+            defaultPicker.ItemsSource = items;
+            customPicker.ItemsSource = items;
+        }
+
+        private void CustomPickerSelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void CustomPickerFocused(object sender, FocusEventArgs e)
+        {
+            return;
+        }
+    }
 }
